@@ -1,0 +1,11 @@
+/* ---------------------------------- */
+/* Custom Styles                      */
+/* ---------------------------------- */
+
+.insights-form {
+	background: url("../template-images/form-bgd.jpg") no-repeat center top #2952a3;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

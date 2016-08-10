@@ -1,0 +1,684 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Header
+2. Body
+3. Headings
+4. Content
+5. Footer
+-------------------------------------------------------------------*/
+
+/* ===== 1. Header ===== */
+
+/*sailfish logo*/
+.sailfish-logo-custom {
+	text-align:left;
+	padding: 15px;
+	float: left;
+}
+
+.sailfish-logo-custom > img{
+	width: 150px;
+}
+
+/* ===== 2. Body ===== */
+
+/*apply hidden class to hide elements*/
+.hidden{
+	display: none;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h4{
+	color: #2e4450;
+}
+
+/*remove dotted border for links*/
+a,
+a:active,
+a:focus,
+a:hover {
+	outline: 0;
+}
+
+/*applying desired font family and font color to website*/
+body {
+    font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+
+p {
+	color: #2e4450;
+}
+
+/*Slider Styling*/
+.slide-item img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-text{
+	margin: 0;
+}
+
+.sailfish-banner-custom > div > h1{
+	color: #002c73 !important;
+}
+
+.sailfish-banner-custom > div > h3{
+	color: #2e4450 !important;
+}
+
+.sailfish-slide-caption-custom{
+    position: absolute;
+    width: 100%;
+	height: 100%;
+    top: 0%;
+    left: 0;
+}
+
+.slide-caption{
+	font-family: 'Lato', sans-serif;
+}
+
+.banner-image{
+	  display: block;
+	  width: 100vw;
+	  height: 100vh;
+	  object-fit: cover;
+}
+
+/* ===== 3. Headings  ===== */
+
+/*applying font family, style and color to headings*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+.sub-navigation ul li a {
+    font-family: 'Lato', sans-serif;
+	color: #002c73;
+}
+
+.sub-navigation ul li a:hover{
+	color: #006896;
+}
+
+.sailfish-explore-image-title{
+	font-weight: 300;
+}
+
+/*banner title*/
+.sailfish-blue-section-title-custom{
+	color: #002c73;
+}
+
+/*divider styling*/
+hr{
+	border: 1px solid #aa0952;
+	width: 150px;
+	margin-top: 0;
+}
+
+/*banner button style*/
+.sailfish-banner-image-button-custom{
+	border-radius: 30px;
+    padding: 10px 20px;
+	background-color: #007b87;
+}
+
+/* ===== 4. Content ===== */
+
+/*set max-height for banner image*/
+.sailfish-section-image-custom > img{
+	max-height: 300px;
+}
+
+/*use case styling*/
+.use-case-icons{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	display: block;
+	clear: both;
+}
+
+.case-item{
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+	background-color: transparent;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.case-item h4 {
+	display: inline-block;
+	line-height: 1.2;
+	vertical-align: middle;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+}
+
+/*dare to discover section styling*/
+.dare-to-discover-title-custom{
+	margin: 0;
+	padding: 0;
+}
+
+.dare-to-discover-item{
+	padding: 15px;
+}
+
+/*responsive media queries for dare to discover section*/
+@media screen and (max-width: 64.0624em){
+	.dare-to-discover-image{
+		width: 100%;
+		height: initial;
+	}
+	
+	/*Dare to Discover section styling*/
+	.dare-to-discover-section{
+		background-color: #F2F2F2;
+		padding: 30px 60px;
+	}
+}
+
+@media screen and (min-width: 64.0625em){
+	.dare-to-discover-image{
+		width: 100%;	
+	}
+	
+	/*Dare to Discover section styling*/
+	.dare-to-discover-section{
+		background-color: #F2F2F2;
+		padding: 60px;
+	}
+	
+	/*Algin Sign Up button with contact us form buttons*/
+	#submit{
+		bottom: -50px;
+		margin: 0 auto;
+		text-align: center;
+	}	
+}
+
+.dare-to-discover-section-title-custom{
+	font-weight: 300;
+}
+
+.discover_the-book,
+.discover_the-work,
+.discover_the-challenge,
+.discover_the-conversation,
+.discover-section-title-custom{
+	color: white;
+	margin-top: 0;
+	font-size: 14px;
+    line-height: 1.6;
+}
+
+/*repective discover section colors*/
+.discover-section-1{
+	color: white;
+	background-color: #007b87;
+}
+
+.discover-section-2{
+	color: white;
+	background-color: #c8420d;
+}
+
+.discover-section-3
+{
+	color: white;
+	background-color: #00834d;
+}
+
+.discover-section-4{
+	color: white;
+	background-color: #d61880;
+}
+
+/*dare to discover position footer at bottom of parent card*/
+.card-footer{
+	position: absolute;
+	width: 100% !important;
+	bottom: 8px;
+}
+
+/*Intro case circles section styling*/
+
+/*dotted line for 3 circles*/
+.line-custom {
+	border-top: 2px dashed #007b87;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    width: 65%;
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*Intro case circle styling*/
+.case-circle-custom{
+	border: 2px solid #002c73;
+	background-color: #ecf2f6;
+    border-radius: 50%;
+	width: 120px;
+    height: 120px;
+	line-height: 100px;
+	display: inline-block;
+    text-align: center;
+	padding: 10px;
+}
+
+.case-circle-custom > h4 {
+	color: #007b87;
+	display: inline-block;
+    line-height: 1.2;
+    vertical-align: middle;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.sailfish-circle-sub-title-custom{
+	font-size: 16px;
+    line-height: 1.6;
+	margin-top: 15px;
+	color: #002C73;
+}
+
+.use-cases-row-custom{
+ 	position: relative;
+    overflow: hidden;
+    max-width: 960px !important;
+}
+
+/*Use case circle styling*/
+.use-cases-custom{
+	padding: 30px 0 15px 0;
+	background-color: #ffffff;
+}
+
+.use-case-item-custom{
+    margin-bottom: 15px;
+    height: initial;
+    float: left !important;
+}
+
+.use-case-item-custom > div{
+	margin-bottom: 15px;
+}
+
+/*Sailfish navigation*/
+.sailfish-sub-nav-custom{
+	position: relative;
+}
+
+.sailfish-sub-nav-custom > ul {
+	padding: 24px;
+	font-family: 'Lato', sans-serif;
+}
+
+/*Sailfish custom button style*/
+.sailfish-button-custom{
+	border-radius: 30px;
+    padding: 10px 30px;
+	background-color: #aa0952;
+	color: white !important;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.sailfish-button-custom:hover,
+.sailfish-button-custom:focus
+{
+	background-color: #820b46;
+	transition: background-color 300ms ease-out;
+}
+
+.sailfish-button-clear-custom{
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-size: 0.9em;
+	background-color: transparent;
+	border: 1px solid #006896;
+	color: #006896;
+	margin: 0;
+}
+
+.sailfish-button-clear-custom:hover {
+	border: 1px solid transparent;  
+}
+
+.sailfish-more-info-button-custom {
+	border-radius: 30px;
+	padding: 10px 20px;
+	background-color: #006896;
+	font-size: 14px;
+}
+
+.sailfish-banner-custom {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparent !important;
+	height: 100%;
+}
+
+/*contact us form*/
+#sign-up{
+	border: 0;
+}
+
+.contact-form-icon{
+	max-width: 100px;
+}
+
+label {
+    display:block;
+    letter-spacing:2px;
+}
+
+.sailfish-form-section-custom > .row > .columns > div {
+	padding: 30px;
+}
+
+.contact-us-section-header-custom{
+	background-color: #2e4450;
+	text-align: center;
+}
+
+.sailfish-trial-header-custom{
+	background-color: #0076b6;
+	text-align: center;
+}
+
+.contact-us-header-title-custom{
+	color: white;
+	margin: 0;
+	font-weight: 300;
+}
+
+.trial-notice-custom{
+	text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sailfish-trial-body-custom{
+	min-height: 311px;
+    vertical-align: middle;
+	position: relative;
+	background-color: #ffffff;
+}
+
+.sailfish-trial-body-custom > div{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 15px;
+    left: 0;
+}
+
+/* Center the contact us form on page */
+form {
+    margin:0 auto;
+}
+
+.sailfish-form-section-custom,
+.sailfish-contact-form-custom{
+	background-color: white;
+}
+
+/* Applying contact form border for larger screens only */
+@media screen and (min-width: 40.0625em){
+	.sailfish-trial-body-custom{
+		border-left: 1px solid;
+	}
+}
+
+.sailfish-contact-form-custom{
+	background-color: white;
+}
+
+.sailfish-sign-up-custom > input,
+.sailfish-contact-form-custom > input{
+	margin-bottom: 15px;
+	border: 1px solid #A6BAC9;
+	border-radius: 5px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:100%;
+	height:initial;
+	background:#ffffff;
+	padding:15px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	border: 0;
+	border-radius: 5px;
+}
+
+select{
+	width:100%;
+	height:initial;
+	font-size:0.9em;
+	color:#3a3a3a;
+	border: 1px solid #A6BAC9;
+	border-radius: 5px;
+	padding:15px;
+}
+
+option {
+	/*options added to remove dotted outline when selecting dropdown*/
+    outline: 0 !important;
+    color: #000;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 0 #000;
+	border: 1px solid ;
+}
+
+/*input text field placeholder text color*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #A6BAC9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #A6BAC9;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #A6BAC9;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #A6BAC9;
+}
+
+/*message dropdown style*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.select-message-custom,
+.select-message-custom:focus,
+.select-message-custom:hover{
+	margin-top: 0;
+	outline: 0 !important;
+}
+
+label.select-message-custom select,
+label.select-message-custom:focus select
+label.select-message-custom:hover select{
+	background-color: #ffffff;
+	padding: 15px;
+	color: #3a3a3a;
+	border-radius: 5px;
+	outline: 0 !important;
+	font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 40.0625em){
+	
+	/*image vertical middle test*/
+	.sailfish-section-image-custom{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding-left: 0;
+		padding-right: 45px;
+	}
+	
+	.reset-button-custom{
+		margin-right: 15px;
+	}
+	
+	.r-tabs-state-active > a{
+		border: 2px solid #002c73;
+		border-radius: 50%;
+		color: #007b87;
+	}
+	
+	.sailfish-sign-up-custom{
+		padding: 15px 0;
+	}
+	
+	.sailfish-banner-custom > .text-center{
+		background: none;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	
+	.sailfish-slide-item-custom {
+		position: relative;
+		width: 100vw;
+		max-height: 400px;
+		background-color: #002151;
+	}
+}
+
+@media screen and (max-width: 40.0624em){
+	
+	.dare-to-discover-item{
+		text-align: center;
+	}
+	
+	.sailfish-banner-custom > .text-center{
+		background: none;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		padding: 0;
+		left: 0;
+	}
+	
+	.use-case-tabs-custom > div{
+		margin-top: 15px;
+	}
+	
+	.sailfish-slide-item-custom > img{
+		max-height: 260px;
+	}
+	
+	.sailfish-slide-item-custom{
+		width: auto;
+		height: 100%;
+		min-height: 200px;
+	} 
+	.float-left-for-small-only{
+		float: left;
+	}
+	
+}
+
+@media screen and (min-width: 40.0625em) and (max-width: 64.0624em){
+	.use-case-tabs-custom > div{
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 64.0625em){
+/*setting min hieght for columns to accomodate for title lengths*/
+	.dare-to-discover-columns-custom > div {
+		min-height: 175px;
+	}
+}
+@media screen and (max-width: 64.0624em){
+/*setting min hieght for columns to accomodate for title lengths*/
+	.dare-to-discover-item {
+		min-height: 175px;
+		margin-bottom: 30px;
+	}
+}
+
+/*testing container width adjustment to span site the full browser width*/
+header,
+.site-container,
+.row{
+	max-width: 100%;
+}
+
+.content{
+	background-color: #ecf2f6;
+}
+
+.sailfish-blue-row-custom{
+	padding: 60px 30px;
+	background-color: #ecf2f6;
+	position: relative;
+	overflow: hidden;
+	max-width: 960px;
+}
+
+.sailfish-white-row-custom{
+	background-color: #FFFFFF;
+	padding: 60px 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.sailfish-white-row-custom > div {
+	max-width: 960px;
+}
+
+@media screen and (min-width: 641px){
+		#submit{
+			bottom: -55px;
+			margin: 0 auto;
+			text-align: center;
+		}	
+}
